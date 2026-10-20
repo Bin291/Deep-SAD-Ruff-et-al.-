@@ -1,0 +1,66 @@
+{
+ "r4.2": {
+  "n_insiders": 70,
+  "by_scenario": {
+   "1": 30,
+   "2": 30,
+   "3": 10
+  },
+  "insiders_missing_from_LDAP": [],
+  "n_users_LDAP": 1000,
+  "logon_period": [
+   "2010-01-02 06:49:00",
+   "2011-05-17 06:43:35"
+  ],
+  "windows_outside_log_period": [],
+  "insiders_without_logon_rows": [],
+  "logon_rows": 854859,
+  "logon_user_days": 330452,
+  "pos_rate_user_label_rows": 0.05794,
+  "pos_rate_user_label_userdays": 0.04675,
+  "pos_rate_window_label_rows": 0.004033,
+  "pos_rate_window_label_userdays": 0.004128,
+  "pos_window_userdays": 1364
+ },
+ "r6.2": {
+  "n_insiders": 5,
+  "by_scenario": {
+   "1": 1,
+   "2": 1,
+   "3": 1,
+   "4": 1,
+   "5": 1
+  },
+  "insiders_missing_from_LDAP": [],
+  "n_users_LDAP": 4000,
+  "users_csv_columns": [
+   "employee_name",
+   "user_id",
+   "email",
+   "role",
+   "projects",
+   "business_unit",
+   "functional_unit",
+   "department",
+   "team",
+   "supervisor",
+   "start_date",
+   "end_date"
+  ],
+  "users_csv_n": 4000,
+  "users_csv_vs_ldap_same": true,
+  "logon_period": [
+   "2010-01-02 02:19:18",
+   "2011-06-01 07:26:02"
+  ],
+  "windows_outside_log_period": [],
+  "insiders_without_logon_rows": [],
+  "logon_rows": 3530285,
+  "logon_user_days": 1394010,
+  "pos_rate_user_label_rows": 0.00129,
+  "pos_rate_user_label_userdays": 0.00098,
+  "pos_rate_window_label_rows": 5e-05,
+  "pos_rate_window_label_userdays": 5.2e-05,
+  "pos_window_userdays": 73
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "release": "6.2",
+ "files": [
+  "logon",
+  "device",
+  "file"
+ ],
+ "per_file": {
+  "logon": {
+   "rows": 3530285,
+   "seconds": 0.4,
+   "pos_user": 4571,
+   "pos_window": 257,
+   "pos_event": 26,
+   "window_rows_not_in_detail": 231,
+   "event_rows_outside_window": 0,
+   "detail_events_expected": 26,
+   "detail_events_missing_in_log": 0
+  },
+  "device": {
+   "rows": 1551828,
+   "seconds": 0.2,
+   "pos_user": 3951,
+   "pos_window": 433,
+   "pos_event": 78,
+   "window_rows_not_in_detail": 355,
+   "event_rows_outside_window": 0,
+   "detail_events_expected": 78,
+   "detail_events_missing_in_log": 0
+  },
+  "file": {
+   "rows": 2014883,
+   "seconds": 2.4,
+   "pos_user": 4084,
+   "pos_window": 276,
+   "pos_event": 55,
+   "window_rows_not_in_detail": 221,
+   "event_rows_outside_window": 0,
+   "detail_events_expected": 55,
+   "detail_events_missing_in_log": 0
+  }
+ },
+ "rows_total": 7096996,
+ "user_days_total": 1394010,
+ "n_insiders": 5,
+ "pos_user": 12606,
+ "pos_window": 966,
+ "pos_event": 159,
+ "window_rows_not_in_detail": 807,
+ "event_rows_outside_window": 0,
+ "detail_events_expected": 159,
+ "detail_events_missing_in_log": 0,
+ "row_rate": {
+  "user": 0.0017762444842860275,
+  "window": 0.00013611392763924343,
+  "event": 2.240384523254628e-05
+ },
+ "user_day_pos": {
+  "user": 1361,
+  "window": 94,
+  "event": 20
+ },
+ "user_day_rate": {
+  "user": 0.0009763201124812591,
+  "window": 6.743136706336397e-05,
+  "event": 1.4347099375183822e-05
+ },
+ "window_user_days_per_insider": {
+  "ACM2278": 6,
+  "CDE1846": 45,
+  "CMP2946": 41,
+  "PLJ1771": 2
+ },
+ "event_user_days_per_insider": {
+  "ACM2278": 3,
+  "CDE1846": 9,
+  "CMP2946": 6,
+  "PLJ1771": 2
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "max_abs_diff": {
+  "ae_weights": 0.0,
+  "ae_val_mse": 0.0,
+  "svdd_weights": 0.0,
+  "svdd_val_scores": 0.0,
+  "tae_weights": 0.0,
+  "tae_val_scores": 0.0
+ },
+ "bitwise": {
+  "svdd_val_scores": true,
+  "tae_val_scores": true,
+  "ae_weights": true,
+  "tae_weights": true
+ },
+ "versions": {
+  "torch": "2.8.0+cu126",
+  "cuda": "12.6",
+  "cudnn": 91002,
+  "deterministic": true,
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"
+ }
+}

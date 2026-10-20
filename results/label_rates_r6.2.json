@@ -1,0 +1,106 @@
+{
+ "release": "6.2",
+ "files": [
+  "logon",
+  "device",
+  "file",
+  "email",
+  "http"
+ ],
+ "per_file": {
+  "logon": {
+   "rows": 3530285,
+   "seconds": 0.4,
+   "pos_user": 4571,
+   "pos_window": 257,
+   "pos_event": 26,
+   "window_rows_not_in_detail": 231,
+   "event_rows_outside_window": 0,
+   "detail_events_expected": 26,
+   "detail_events_missing_in_log": 0
+  },
+  "device": {
+   "rows": 1551828,
+   "seconds": 0.1,
+   "pos_user": 3951,
+   "pos_window": 433,
+   "pos_event": 78,
+   "window_rows_not_in_detail": 355,
+   "event_rows_outside_window": 0,
+   "detail_events_expected": 78,
+   "detail_events_missing_in_log": 0
+  },
+  "file": {
+   "rows": 2014883,
+   "seconds": 0.9,
+   "pos_user": 4084,
+   "pos_window": 276,
+   "pos_event": 55,
+   "window_rows_not_in_detail": 221,
+   "event_rows_outside_window": 0,
+   "detail_events_expected": 55,
+   "detail_events_missing_in_log": 0
+  },
+  "email": {
+   "rows": 10994957,
+   "seconds": 23.2,
+   "pos_user": 15485,
+   "pos_window": 1156,
+   "pos_event": 87,
+   "window_rows_not_in_detail": 1069,
+   "event_rows_outside_window": 0,
+   "detail_events_expected": 87,
+   "detail_events_missing_in_log": 0
+  },
+  "http": {
+   "rows": 117025216,
+   "seconds": 337.0,
+   "pos_user": 167034,
+   "pos_window": 11692,
+   "pos_event": 174,
+   "window_rows_not_in_detail": 11518,
+   "event_rows_outside_window": 0,
+   "detail_events_expected": 174,
+   "detail_events_missing_in_log": 0
+  }
+ },
+ "rows_total": 135117169,
+ "user_days_total": 1394010,
+ "n_insiders": 5,
+ "pos_user": 195125,
+ "pos_window": 13814,
+ "pos_event": 420,
+ "window_rows_not_in_detail": 13394,
+ "event_rows_outside_window": 0,
+ "detail_events_expected": 420,
+ "detail_events_missing_in_log": 0,
+ "row_rate": {
+  "user": 0.001444116994487947,
+  "window": 0.00010223719237338372,
+  "event": 3.108413261678092e-06
+ },
+ "user_day_pos": {
+  "user": 1361,
+  "window": 95,
+  "event": 44
+ },
+ "user_day_rate": {
+  "user": 0.0009763201124812591,
+  "window": 6.814872203212315e-05,
+  "event": 3.156361862540441e-05
+ },
+ "window_user_days_per_insider": {
+  "ACM2278": 6,
+  "CDE1846": 45,
+  "CMP2946": 41,
+  "MBG3183": 1,
+  "PLJ1771": 2
+ },
+ "event_user_days_per_insider": {
+  "ACM2278": 3,
+  "CDE1846": 9,
+  "CMP2946": 29,
+  "MBG3183": 1,
+  "PLJ1771": 2
+ }
+}

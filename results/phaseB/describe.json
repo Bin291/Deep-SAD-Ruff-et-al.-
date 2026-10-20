@@ -1,0 +1,326 @@
+{
+ "4.2": {
+  "features": {
+   "rows": 330452,
+   "columns": 95,
+   "groups": {
+    "G": 59,
+    "D": 29,
+    "R": 0,
+    "I": 3,
+    "Z": 14
+   },
+   "schema_sha256": "8f0ee716aa955a7ae7bc5c75d604c052ffd6795c78ffb727a4aee1b491c6cadb",
+   "first_day": "2010-01-02",
+   "last_day": "2011-05-17"
+  },
+  "cold_start": {
+   "days": "2010-01-02 \u2192 2010-01-31",
+   "user_days": 20549,
+   "pos_win": 0,
+   "pos_event": 0,
+   "insiders_with_pos": 0
+  },
+  "keywords": {
+   "wikileaks": {
+    "used_in_release": true,
+    "http_rows": 69,
+    "user_days_with_match": 68,
+    "pos_user_days_with_match": 68,
+    "pos_user_days": 1364,
+    "insiders_with_match_in_pos_days": 30
+   },
+   "job": {
+    "used_in_release": true,
+    "http_rows": 472178,
+    "user_days_with_match": 98802,
+    "pos_user_days_with_match": 769,
+    "pos_user_days": 1364,
+    "insiders_with_match_in_pos_days": 51
+   },
+   "keylog": {
+    "used_in_release": true,
+    "http_rows": 89614,
+    "user_days_with_match": 28689,
+    "pos_user_days_with_match": 110,
+    "pos_user_days": 1364,
+    "insiders_with_match_in_pos_days": 23
+   },
+   "dropbox": {
+    "used_in_release": false,
+    "http_rows": 71468,
+    "user_days_with_match": 36909,
+    "pos_user_days_with_match": 109,
+    "pos_user_days": 1364,
+    "insiders_with_match_in_pos_days": 22
+   }
+  },
+  "pbt_scenario_phase": [
+   {
+    "scenario": 1,
+    "fit_insiders": 19,
+    "fit_pos": 114,
+    "val_insiders": 4,
+    "val_pos": 17,
+    "test_insiders": 7,
+    "test_pos": 25,
+    "insiders_fit_and_test": 0
+   },
+   {
+    "scenario": 2,
+    "fit_insiders": 20,
+    "fit_pos": 650,
+    "val_insiders": 9,
+    "val_pos": 205,
+    "test_insiders": 10,
+    "test_pos": 333,
+    "insiders_fit_and_test": 0
+   },
+   {
+    "scenario": 3,
+    "fit_insiders": 7,
+    "fit_pos": 14,
+    "val_insiders": 2,
+    "val_pos": 4,
+    "test_insiders": 1,
+    "test_pos": 2,
+    "insiders_fit_and_test": 0
+   }
+  ],
+  "diagnostic": [
+   {
+    "group": "ng\u01b0\u1eddi th\u01b0\u1eddng",
+    "users": 930,
+    "active_days_mean": 338.7118279569892,
+    "active_days_median": 346.0,
+    "rows_per_day_mean": 98.9327368600283,
+    "rows_per_day_median": 105.76878612716763,
+    "share_last_day_before_end_minus_30": 0.08602150537634409,
+    "last_day_median": "2011-05-16"
+   },
+   {
+    "group": "insider (t\u1ea5t c\u1ea3)",
+    "users": 70,
+    "active_days_mean": 220.71428571428572,
+    "active_days_median": 213.5,
+    "rows_per_day_mean": 101.42675151106982,
+    "rows_per_day_median": 112.67611947231512,
+    "share_last_day_before_end_minus_30": 0.9714285714285714,
+    "last_day_median": "2010-10-29"
+   },
+   {
+    "group": "insider k\u1ecbch b\u1ea3n 1",
+    "users": 30,
+    "active_days_mean": 219.9,
+    "active_days_median": 217.5,
+    "rows_per_day_mean": 94.24904134860418,
+    "rows_per_day_median": 106.42039384517261,
+    "share_last_day_before_end_minus_30": 1.0,
+    "last_day_median": "2010-11-02"
+   },
+   {
+    "group": "insider k\u1ecbch b\u1ea3n 2",
+    "users": 30,
+    "active_days_mean": 231.8,
+    "active_days_median": 222.5,
+    "rows_per_day_mean": 94.07637865104067,
+    "rows_per_day_median": 112.67611947231512,
+    "share_last_day_before_end_minus_30": 0.9666666666666667,
+    "last_day_median": "2010-11-30"
+   },
+   {
+    "group": "insider k\u1ecbch b\u1ea3n 3",
+    "users": 10,
+    "active_days_mean": 189.9,
+    "active_days_median": 179.0,
+    "rows_per_day_mean": 145.01100057855436,
+    "rows_per_day_median": 133.06454651475735,
+    "share_last_day_before_end_minus_30": 0.9,
+    "last_day_median": "2010-10-04"
+   }
+  ],
+  "release_last_day": "2011-05-17"
+ },
+ "6.2": {
+  "features": {
+   "rows": 1394010,
+   "columns": 105,
+   "groups": {
+    "G": 59,
+    "D": 29,
+    "R": 10,
+    "I": 4,
+    "Z": 14
+   },
+   "schema_sha256": "f105869956c2bcbaacb2addef65d765d78fe559c7f63c43957c036e4afb99cd1",
+   "first_day": "2010-01-02",
+   "last_day": "2011-06-01"
+  },
+  "cold_start": {
+   "days": "2010-01-02 \u2192 2010-01-31",
+   "user_days": 82056,
+   "pos_win": 0,
+   "pos_event": 0,
+   "insiders_with_pos": 0
+  },
+  "keywords": {
+   "wikileaks": {
+    "used_in_release": true,
+    "http_rows": 7,
+    "user_days_with_match": 2,
+    "pos_user_days_with_match": 2,
+    "pos_user_days": 95,
+    "insiders_with_match_in_pos_days": 1
+   },
+   "job": {
+    "used_in_release": true,
+    "http_rows": 692897,
+    "user_days_with_match": 244202,
+    "pos_user_days_with_match": 49,
+    "pos_user_days": 95,
+    "insiders_with_match_in_pos_days": 4
+   },
+   "keylog": {
+    "used_in_release": true,
+    "http_rows": 462,
+    "user_days_with_match": 438,
+    "pos_user_days_with_match": 1,
+    "pos_user_days": 95,
+    "insiders_with_match_in_pos_days": 1
+   },
+   "dropbox": {
+    "used_in_release": true,
+    "http_rows": 1168971,
+    "user_days_with_match": 348414,
+    "pos_user_days_with_match": 36,
+    "pos_user_days": 95,
+    "insiders_with_match_in_pos_days": 2
+   }
+  },
+  "pbt_scenario_phase": [
+   {
+    "scenario": 1,
+    "fit_insiders": 1,
+    "fit_pos": 6,
+    "val_insiders": 0,
+    "val_pos": 0,
+    "test_insiders": 0,
+    "test_pos": 0,
+    "insiders_fit_and_test": 0
+   },
+   {
+    "scenario": 2,
+    "fit_insiders": 0,
+    "fit_pos": 0,
+    "val_insiders": 0,
+    "val_pos": 0,
+    "test_insiders": 1,
+    "test_pos": 41,
+    "insiders_fit_and_test": 0
+   },
+   {
+    "scenario": 3,
+    "fit_insiders": 1,
+    "fit_pos": 2,
+    "val_insiders": 0,
+    "val_pos": 0,
+    "test_insiders": 0,
+    "test_pos": 0,
+    "insiders_fit_and_test": 0
+   },
+   {
+    "scenario": 4,
+    "fit_insiders": 0,
+    "fit_pos": 0,
+    "val_insiders": 0,
+    "val_pos": 0,
+    "test_insiders": 1,
+    "test_pos": 45,
+    "insiders_fit_and_test": 0
+   },
+   {
+    "scenario": 5,
+    "fit_insiders": 1,
+    "fit_pos": 1,
+    "val_insiders": 0,
+    "val_pos": 0,
+    "test_insiders": 0,
+    "test_pos": 0,
+    "insiders_fit_and_test": 0
+   }
+  ],
+  "diagnostic": [
+   {
+    "group": "ng\u01b0\u1eddi th\u01b0\u1eddng",
+    "users": 3995,
+    "active_days_mean": 348.5979974968711,
+    "active_days_median": 356.0,
+    "rows_per_day_mean": 96.73365415548297,
+    "rows_per_day_median": 105.88483146067416,
+    "share_last_day_before_end_minus_30": 0.08635794743429287,
+    "last_day_median": "2011-05-31"
+   },
+   {
+    "group": "insider (t\u1ea5t c\u1ea3)",
+    "users": 5,
+    "active_days_mean": 272.2,
+    "active_days_median": 316.0,
+    "rows_per_day_mean": 147.099443235174,
+    "rows_per_day_median": 133.54777070063693,
+    "share_last_day_before_end_minus_30": 0.6,
+    "last_day_median": "2011-04-01"
+   },
+   {
+    "group": "insider k\u1ecbch b\u1ea3n 1",
+    "users": 1,
+    "active_days_mean": 176.0,
+    "active_days_median": 176.0,
+    "rows_per_day_mean": 179.2443181818182,
+    "rows_per_day_median": 179.2443181818182,
+    "share_last_day_before_end_minus_30": 1.0,
+    "last_day_median": "2010-09-09"
+   },
+   {
+    "group": "insider k\u1ecbch b\u1ea3n 2",
+    "users": 1,
+    "active_days_mean": 316.0,
+    "active_days_median": 316.0,
+    "rows_per_day_mean": 196.8006329113924,
+    "rows_per_day_median": 196.8006329113924,
+    "share_last_day_before_end_minus_30": 1.0,
+    "last_day_median": "2011-04-01"
+   },
+   {
+    "group": "insider k\u1ecbch b\u1ea3n 3",
+    "users": 1,
+    "active_days_mean": 157.0,
+    "active_days_median": 157.0,
+    "rows_per_day_mean": 133.54777070063693,
+    "rows_per_day_median": 133.54777070063693,
+    "share_last_day_before_end_minus_30": 1.0,
+    "last_day_median": "2010-08-13"
+   },
+   {
+    "group": "insider k\u1ecbch b\u1ea3n 4",
+    "users": 1,
+    "active_days_mean": 356.0,
+    "active_days_median": 356.0,
+    "rows_per_day_mean": 106.35393258426966,
+    "rows_per_day_median": 106.35393258426966,
+    "share_last_day_before_end_minus_30": 0.0,
+    "last_day_median": "2011-05-31"
+   },
+   {
+    "group": "insider k\u1ecbch b\u1ea3n 5",
+    "users": 1,
+    "active_days_mean": 356.0,
+    "active_days_median": 356.0,
+    "rows_per_day_mean": 119.5505617977528,
+    "rows_per_day_median": 119.5505617977528,
+    "share_last_day_before_end_minus_30": 0.0,
+    "last_day_median": "2011-05-31"
+   }
+  ],
+  "release_last_day": "2011-06-01"
+ }
+}

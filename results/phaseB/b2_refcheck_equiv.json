@@ -1,0 +1,24 @@
+{
+ "push_center_max_abs_diff": 0.0,
+ "ref_layers": [
+  "Linear(in_features=88, out_features=64, bias=False)",
+  "BatchNorm1d(64, eps=0.0001, momentum=0.1, affine=False, track_running_stats=True)",
+  "LeakyReLU(negative_slope=0.1)",
+  "Linear(in_features=64, out_features=16, bias=False)",
+  "Linear(in_features=16, out_features=64, bias=False)",
+  "BatchNorm1d(64, eps=0.0001, momentum=0.1, affine=False, track_running_stats=True)",
+  "LeakyReLU(negative_slope=0.1)",
+  "Linear(in_features=64, out_features=88, bias=False)"
+ ],
+ "train_forward_max_abs_diff": 1.1102230246251565e-15,
+ "bn_running_mean_diff": 5.204170427930421e-18,
+ "bn_running_var_diff": 2.220446049250313e-16,
+ "eval_forward_max_abs_diff": 2.7755575615628914e-16,
+ "adam_20_steps_weight_max_abs_diff": 1.5959455978986625e-15,
+ "ae_loss_ref_over_ours": 88.00000000000001,
+ "sad_loss_max_abs_diff": 0.0,
+ "ref_one_seed_quick_synthetic": {
+  "auc": 0.9713815789473685,
+  "seconds": 0.30001258850097656
+ }
+}

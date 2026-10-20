@@ -1,0 +1,24 @@
+# environment and caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# CERT data and derived tables (large; CERT terms of use) and run logs
+data/
+logs/
+
+# score dumps and checkpoints (rebuildable from the scripts)
+*.npz
+*.pt
+results/phaseB/b2_ckpt/
+
+# H3 script outputs (not part of this pipeline)
+out_h3*/
+
+# third-party paper PDF (copyright)
+docs/*.pdf
+
+# secrets, just in case
+.env
+*.token
